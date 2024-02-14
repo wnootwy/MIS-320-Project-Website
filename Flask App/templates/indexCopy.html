@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"/>
+        <title>"SAFRAN Database Website"</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+        <script src="{{url_for('static', filename='/javascript/testjs.js')}}"></script>
+    </head>
+<body>
+<div class="Container">
+<a href="indexCopy.html" title="SAFRAN FS Asset Tracker" alt="Click to return to the home page.">
+<img style="width: 99%; height: 175px; border: 5px solid black" src="{{ url_for('static', filename='images/topbanner.jpg') }}" alt="Website Banner">
+<h1 class="mainTitle">SAFRAN FS Asset Tracker</h1>
+</a>
+</div>
+<div class="nav">
+    <a href="#">Home</a>
+    <a href="#Employee">Employee</a>
+    <a href="#Computers">Computers</a>
+    <a href="#Services">Services</a>
+    <a href="#Software">Software</a>
+    <a href="#Department">Department</a>
+    <a href="#Vendors">Vendors</a>
+</div>
+<div class="welcome">
+<h2>Welcome to SAFRAN FS Asset Tracker Database</h2>
+<p>We are introducing SAFRAN FS new asset tracker to employees.  SAFRAN FS's old asset tracker
+    had some kinks that we noticed needed to be fixed so SAFRAN has been working with a team from 
+    Iowa State's Database Management Systems class to bring a new and improved database design to our doorstep. <br>
+    <br>
+    Over the next few weeks our team leaders and members of the Database Management Systems class 
+    will be working with everyone to learn how the system works and the very user-friendly UI they have 
+    so kindly developed.<br>
+    <br>
+    We hope that you all will enjoy the new asset tracker for our company and are eager to hear
+    everybody's feedback!<br>
+    <br>
+    Thank you for sticking with us through this transition,<br>
+    <br>
+    <em><strong class="signature">SAFRAN FS</strong></em>
+</p>
+</div>
+<div class="employeeTable">
+    <a id="Employee"><h2>Employee</h2></a>
+    {{ pandas_table|safe }}
+</div>
+<div class="Computers">
+    <a id='Computers'><h2>Computers</h2></a>
+    {{ pandas_table2|safe }}
+</div>
+<div class="Services">
+    <a id="Services"><h2>Services</h2></a>
+    {{ pandas_table3|safe }}
+</div>
+<div class="Software">
+    <a id="Software"><h2>Software</h2></a>
+    {{ pandas_table4|safe }}
+</div>
+<div class="Department">
+    <a id="Department"><h2>Department</h2></a>
+    {{ pandas_table5|safe }}
+</div>
+<div class="Vendors">
+    <a id="Vendors"><h2>Vendors</h2></a>
+    {{ pandas_table6|safe }}
+</div>
+<span class="button"><a href=# title="Top of Page" alt="Go back to top of page"><button  type="button"><strong>Back to top</strong></button></a></span>
+<footer>
+    <p>MIS 320 Group 17 - Bobby Kapsch, Parker Woods, Spencer Zevenbergen, Zach Willens, Hayden Doiel <br>
+    SAFRAN FS ASSET TRACKER Database Project © 2023</p>
+    <img src="{{ url_for('static', filename='images/logo.jpg') }}" width="100" alt="Logo">
+</footer>
+</body>
+</html>

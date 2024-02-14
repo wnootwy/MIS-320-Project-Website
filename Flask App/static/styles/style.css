@@ -1,0 +1,132 @@
+.Container {
+    text-align: center;
+    position: relative;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mainTitle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    font-size: 50px;
+}
+.nav a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
+    font-size: 28px;
+    padding: 14px 50px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.nav a:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellow;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
+    font-size: 37px;
+    padding: 14px 30px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.nav {
+    background-color: black;
+    overflow: hidden;
+
+}
+
+.Container a {
+    color: white;
+}
+
+.welcome {
+    border: 3px solid black;
+    position: relative;
+    top: 10px;
+    padding: 15px;
+}
+.welcome h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.welcome p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+table {
+    table-layout: auto;
+    width: 100%;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    border-left: 3px solid blue;
+    border-right:3px solid blue;
+    border-collapse: separate;
+    border-spacing: 0;
+
+}
+
+td {
+    text-align: center;
+    border: 1px solid blue;
+}
+
+th {
+    text-align: center;
+    border: 3px solid blue;
+    background-color:rgb(212, 215, 217);
+}
+
+.button button {
+    background-color: rgb(180, 200, 217);
+    color: white;
+    border: 0;
+    position:relative;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 11px;
+}
+.button a{
+    color: white;
+    vertical-align: -65px;
+}
+
+.Services .open {
+    color:white;
+    background-color: purple;
+    border: 0;
+    border-radius: 7px;
+    width: 5px;
+}
+.Services .progress{
+    color: white;
+    background-color: brown;
+    border: 0;
+    border-radius: 7px;
+    width: 100px;
+}
+.Services .reply {
+    color: white;
+    background-color: lightblue;    
+    border: 0;
+    border-radius: 7px;
+}
+
+footer {
+    margin: 0;
+    background-color: rgb(247, 244, 244);
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding: 30px 0px 10px 0px;
+}
+
+.signature {
+    font-family: cursive;
+}

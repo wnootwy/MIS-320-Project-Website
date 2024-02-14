@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"/>
+        <title>"SAFRAN Database Website"</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+</html>
+<body>
+<div class="Container">
+<a href="index.html" title="SAFRAN FS Asset Tracker" alt="Click to return to the home page.">
+<img style="width: 99%; height: 175px; border: 5px solid black" src="topbanner.jpg" alt="Website Banner">
+<h1 class="mainTitle">SAFRAN FS Asset Tracker</h1>
+</a>
+</div>
+<div class="nav">
+    <a href="#">Home</a>
+    <a href="#Employee">Employee</a>
+    <a href="#Computers">Computers</a>
+    <a href="#Services">Services</a>
+    <a href="#Software">Software</a>
+    <a href="#Department">Department</a>
+    <a href="#Vendors">Vendors</a>
+</div>
+<div class="welcome">
+<h2>Welcome to SAFRAN FS Asset Tracker Database</h2>
+<p>We are introducing SAFRAN FS new asset tracker to employees.  SAFRAN FS's old asset tracker
+    had some kinks that we noticed needed to be fixed so SAFRAN has been working with a team from 
+    Iowa State's Database Management Systems class to bring a new and improved database design to our doorstep. <br>
+    <br>
+    Over the next few weeks our team leaders and members of the Database Management Systems class 
+    will be working with everyone to learn how the system works and the very user-friendly UI they have 
+    so kindly developed.<br>
+    <br>
+    We hope that you all will enjoy the new asset tracker for our company and are eager to hear
+    everybody's feedback!<br>
+    <br>
+    Thank you for sticking with us through this transition,<br>
+    <br>
+    <em><strong class="signature">SAFRAN FS</strong></em>
+</p>
+</div>
+<div class="employeeTable">
+    <a id="Employee"><h2>Employee</h2></a>
+<table class="Employee">
+    <tr>
+        <th>Employee ID</th>
+        <th>Employee Name</th>
+        <th>Employee Telephone Number</th>
+        <th>Position</th>
+        <th>Direct Supervisor</th>
+    </tr>
+    <tr>
+        <td>034</td>
+        <td>Wessley Brown</td>
+        <td> (555)-223-3322</td>
+        <td>Contract Specialist</td>
+        <td>Thomas Knatt</td>
+    </tr>
+    <tr>
+        <td>035</td>
+        <td>Shawn Miller</td>
+        <td>(555)-331-0033</td>
+        <td>Network Engineer</td>
+        <td>Paul Bunyon</td>
+    </tr>
+    <tr>
+        <td>038</td>
+        <td>Jannette Smith</td>
+        <td>(555)-666-2200</td>
+        <td>Talent Acquisition Specialist</td>
+        <td>Alexandra Loft</td>
+    </tr>
+    <tr>
+        <td>044</td>
+        <td>Emily Jackson</td>
+        <td>(555)-334-4444</td>
+        <td>Software Engineer</td>
+        <td>Paul Bunyon</td>
+    </tr>
+    <tr>
+        <td><b>...</b></td>
+        <td><b>...</b></td>
+        <td><b>...</b></td>
+        <td><b>...</b></td>
+        <td><b>...</b></td>
+    </tr>
+</table>
+</div>
+<div class="Computers">
+    <a id='Computers'><h2>Computers</h2></a>
+    <table>
+        <tr>
+            <th>Serial Number</th>
+            <th>Computer Name</th>
+            <th>Deployment Date</th>
+            <th>Warranty</th>
+            <th>Service Records</th>
+        </tr>
+        <tr>
+            <td>6P2TFK2</td>
+            <td>SEWorkstation-02</td>
+            <td>03/24/2016</td>
+            <td>03/31/2020</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>SFKHB2</td>
+            <td>SEWorkstation-03</td>
+            <td>03/24/2016</td>
+            <td>03/31/2020</td>
+            <td>09/18/2019</td>
+        </tr>
+        <tr>
+            <td>LTF1QPR</td>
+            <td>HRWorkstation-01</td>
+            <td>04/22/2021</td>
+            <td>04/30/2025</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>HHH3FR7</td>
+            <td>FINWorkstation-01</td>
+            <td>03/25/2016</td>
+            <td>03/31/2020</td>
+            <td>03/02/2017</td>
+        </tr>
+        <tr>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+        </tr>
+    </table>
+</div>
+<div class="Services">
+    <a id="Services"><h2>Services</h2></a>
+    <table>
+        <tr>
+            <th>Request Number</th>
+            <th>Description</th>
+            <th>Assigned Staff</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Date Created</th>
+        </tr>
+        <tr>
+            <td>19118</td>
+            <td>Internet Trouble</td>
+            <td>Shawn Miller</td>
+            <td>Networking</td>
+            <td class="progress">In Progress</td>
+            <td>10/05/2023</td>
+        </tr>
+        <tr>
+            <td>19119</td>
+            <td>Resume</td>
+            <td>Jannette Smith</td>
+            <td>Recruiting</td>
+            <td class="reply">Awaiting Reply</td>
+            <td>10/05/2023</td>
+        </tr>
+        <tr>
+            <td>19120</td>
+            <td>Sign Contract</td>
+            <td>Wessley Brown</td>
+            <td>Contracts</td>
+            <td class="open">Open</td>
+            <td>10/07/2023</td>
+        </tr>
+        <tr>
+            <td>19121</td>
+            <td>Enterprise Application Req.</td>
+            <td>Emily Jackson</td>
+            <td>Software Engineering</td>
+            <td class="progress">In Progess</td>
+            <td>10/07/2023</td>
+        </tr>
+        <tr>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+        </tr>
+    </table>
+</div>
+<div class="Software">
+    <a id="Software"><h2>Software</h2></a>
+    <table>
+        <tr>
+            <th>Software Name</th>
+            <th>Service ID</th>
+            <th>Version</th>
+            <th>Publisher</th>
+            <th>Licenses</th>
+            <th>Install Date</th>
+        </tr>
+        <tr>
+            <td>Webex</td>
+            <td>19092</td>
+            <td>42.7.0.22904</td>
+            <td>Cisco Systems, Inc</td>
+            <td>150</td>
+            <td>10/08/2023</td>
+        </tr>
+        <tr>
+            <td>Microsoft Edge</td>
+            <td>19100</td>
+            <td>117.0.2045.47</td>
+            <td>Microsoft Corporation</td>
+            <td>N/A</td>
+            <td>10/01/2023</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>19101</td>
+            <td>3.11.0</td>
+            <td>Python Software Foundation</td>
+            <td>N/A</td>
+            <td>8/25/2023</td>
+        </tr>
+        <tr>
+            <td>Microsoft 365</td>
+            <td>19110</td>
+            <td>16.0.10402.20023</td>
+            <td>Microsoft Corporation</td>
+            <td>500</td>
+            <td>10/01/2023</td>
+        </tr>
+        <tr>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+        </tr>
+    </table>
+</div>
+<div class="Department">
+    <a id="Department"><h2>Department</h2></a>
+    <table>
+        <tr>
+            <th>Department Name</th>
+            <th>Department Number</th>
+            <th>Department Location</th>
+            <th>Department Manager</th>
+            <th>Department Size</th>
+        </tr>
+        <tr>
+            <td>Information Technology</td>
+            <td>100</td>
+            <td>Bldg1-101,103</td>
+            <td>Paul Bunyon</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>Human Resources</td>
+            <td>200</td>
+            <td>Bldg1-201</td>
+            <td>Alexandra Loft</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Contracting</td>
+            <td>300</td>
+            <td>Bldg2-301</td>
+            <td>Thomas Knatt</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Administration</td>
+            <td>900</td>
+            <td>Bldg2-901</td>
+            <td>Grant Paul</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+        </tr>
+    </table>
+</div>
+<div class="Vendors">
+    <a id="Vendors"><h2>Vendors</h2></a>
+    <table>
+        <tr>
+            <th>Vendor ID</th>
+            <th>Vendor Name</th>
+            <th>Vendor Products/Services</th>
+            <th>Vendor Telephone Number</th>
+            <th>Vendor Representative</th>
+            <th>Vendor Standing</th>
+        </tr>
+        <tr>
+            <td>020</td>
+            <td>Nvidia</td>
+            <td>GPUs</td>
+            <td>(800)-555-2255</td>
+            <td>Fredrick Douglass</td>
+            <td>Excellent</td>
+        </tr>
+        <tr>
+            <td>030</td>
+            <td>Advanced Micro Devices</td>
+            <td>Processors</td>
+            <td>(800)-333-4444</td>
+            <td>Craig Kennedy</td>
+            <td>Good</td>
+        </tr>
+        <tr>
+            <td>040</td>
+            <td>Dell</td>
+            <td>Workstations</td>
+            <td>(800)-222-3231</td>
+            <td>Mark Cuban</td>
+            <td>Poor</td>
+        </tr>
+        <tr>
+            <td>050</td>
+            <td>Cisco Systems</td>
+            <td>Phones</td>
+            <td>(800)-777-7777</td>
+            <td>Doug Dimadome</td>
+            <td>Excellent</td>
+        </tr>
+        <tr>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+            <td><b>...</b></td>
+        </tr>
+    </table>
+</div>
+<span class="button"><a href=# title="Top of Page" alt="Go back to top of page"><button  type="button"><strong>Back to top</strong></button></a></span>
+<footer>
+    <p>MIS 320 Group 17 - Bobby Kapsch, Parker Woods, Spencer Zevenbergen, Zach Willens, Hayden Doiel <br>
+    SAFRAN FS ASSET TRACKER Database Project © 2023</p>
+    <img src="logo.jpg" width="100" alt="Logo">
+</footer>
+</body>
